@@ -235,6 +235,7 @@ export AUR_PACKAGES="\
 	steam-removable-media-git \
 	wyvern \
 	zenergy-dkms-git \
+	input-leap-git \
 "
 
 export SERVICES="\
