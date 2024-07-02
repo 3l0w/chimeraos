@@ -129,6 +129,7 @@ export PACKAGES="\
 	pipewire-alsa \
 	pipewire-jack \
 	pipewire-pulse \
+	pipewire-roc \
 	podman \
 	pulsemixer \
 	python \
@@ -164,6 +165,7 @@ export PACKAGES="\
 	xorg-server \
 	xz \
 	zip \
+	zsh \
 "
 
 export PACKAGE_OVERRIDES="\
@@ -236,6 +238,7 @@ export AUR_PACKAGES="\
 	wyvern \
 	zenergy-dkms-git \
 	input-leap-git \
+	oh-my-zsh-git \
 "
 
 export SERVICES="\
