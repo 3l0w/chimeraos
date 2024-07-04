@@ -21,6 +21,7 @@ RUN echo -e "keyserver-options auto-key-retrieve" >> /etc/pacman.d/gnupg/gpg.con
   python-setuptools \
   python-wheel \
   sudo \
+  gtest \
   && \
   pacman --noconfirm -S --needed git && \
   echo "%wheel ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers && \
