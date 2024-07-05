@@ -127,7 +127,6 @@ export PACKAGES="\
 	podman \
 	pulsemixer \
 	python \
-	python-inotify-simple \
 	python-notify2 \
 	qtractor \
 	retroarch \
@@ -190,6 +189,7 @@ export PACKAGE_OVERRIDES="\
 # Check on the AUR webpage if you are unsure
 export AUR_PACKAGES="\
 	asusctl \
+	python-inotify-simple \
 	antimicrox \
 	ayaneo-platform-dkms-git \
 	ayn-platform-dkms-git \
