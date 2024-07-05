@@ -21,6 +21,7 @@ RUN echo -e "keyserver-options auto-key-retrieve" >> /etc/pacman.d/gnupg/gpg.con
     python-wheel \
     sudo \
     libavif \
+    libdecor \
     libxrandr \
     && \
     pacman --noconfirm -S --needed git && \
