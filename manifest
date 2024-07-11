@@ -155,7 +155,7 @@ export PACKAGES="\
 	unzip \
 	usb_modeswitch \
 	usbutils \
-	vim \
+	neovim \
 	vulkan-icd-loader \
 	wavpack \
 	wget \
