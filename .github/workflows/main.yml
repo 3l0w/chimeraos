@@ -96,6 +96,8 @@ jobs:
           sudo prlimit --pid $$ --nofile=500000:500000
           ulimit -a
       - uses: actions/checkout@v4
+        with:
+          submodules: true
       - name: Extract metadata (tags, labels) for Docker
         id: meta
         uses: docker/metadata-action@v5
