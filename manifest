@@ -128,6 +128,7 @@ export PACKAGES="\
 	openssh \
 	p7zip \
 	pipewire \
+	pipewire-roc \
 	pipewire-alsa \
 	pipewire-jack \
 	pipewire-pulse \
