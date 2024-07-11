@@ -1,0 +1,3 @@
+[submodule "pkgs/wifirst"]
+	path = pkgs/wifirst
+	url = https://git.3l0w.fr/AUR/wifirst.git
