@@ -122,6 +122,7 @@ export PACKAGES="\
 	nvidia-utils \
 	lib32-nvidia-utils \
 	nvidia-prime \
+	ntfs-3g \
 	openal \
 	openrazer-daemon \
 	openssh \
