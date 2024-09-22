@@ -24,6 +24,7 @@ export PACKAGES="\
 	bzip2 \
 	cifs-utils \
 	cpupower \
+	corectrl \
 	diffutils \
 	dkms \
 	distrobox \
