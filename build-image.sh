@@ -66,6 +66,9 @@ mkdir ${BUILD_PATH}/extra_pkgs
 cp -rv aur-pkgs/*.pkg.tar* ${BUILD_PATH}/extra_pkgs
 cp -rv pkgs/*.pkg.tar* ${BUILD_PATH}/own_pkgs
 
+file aur-pkgs/gamescope-session-git-*-any.pkg.tar.zst
+head aur-pkgs/gamescope-session-git-*-any.pkg.tar.zst
+
 if [ -n "${PACKAGE_OVERRIDES}" ]; then
 	wget --directory-prefix=/tmp/extra_pkgs ${PACKAGE_OVERRIDES}
 	cp -rv /tmp/extra_pkgs/*.pkg.tar* ${BUILD_PATH}/own_pkgs
