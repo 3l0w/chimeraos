@@ -68,7 +68,7 @@ cp -rv aur-pkgs/*.pkg.tar* ${BUILD_PATH}/aur_pkgs
 cp -rv pkgs/*.pkg.tar* ${BUILD_PATH}/local_pkgs
 
 if [ -n "${PACKAGE_OVERRIDES}" ]; then
-	wget --directory-prefix=${BUILD_PATH}/override_pkgs ${PACKAGE_OVERRIDES}
+	wget --directory-prefix=${BUILD_PATH}/override_pkgs --no-verbose ${PACKAGE_OVERRIDES}
 fi
 
 
