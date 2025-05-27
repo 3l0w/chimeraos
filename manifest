@@ -237,6 +237,7 @@ export AUR_PACKAGES="\
 	wyvern \
 	xpadneo-dkms-git \
 	zenergy-dkms-git \
+	libretro-pcsx2 \
 "
 
 export SERVICES="\
